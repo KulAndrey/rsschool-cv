@@ -29,4 +29,7 @@
 </body>
 </html>
 ```
+## Languages
+* English A2
+
 ### My GitHub https://github.com/KulAndrey/rsschool-cv

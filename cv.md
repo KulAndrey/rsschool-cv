@@ -10,7 +10,7 @@
 
 ## Education
 * Military Financial and Economic Institute
-* [CSS для начинающих] [https://ru.code-basics.com/languages/css] 
+* [CSS для начинающих] (https://ru.code-basics.com/languages/css)
 
 ## Skills
 * HTML

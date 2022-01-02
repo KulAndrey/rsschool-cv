@@ -4,17 +4,36 @@ h1 {
     text-align: center;
     
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 20px;
+    background-color: #c9c8c8;
+    margin: 0 auto;
+    ;
+}
 nav {
-    
+    margin: 0;
+    padding: 0%;
+    width: 100%;
     text-align: justify;
 }
 .name {
     text-align: center;
     background-color: darkgray;
-    padding: 10px 100px 10px;
-    margin: 10px 400px;
-    border-radius: 10%;
-    border: darkgreen;
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 5%;
 }
 .myFoto {
     text-align: center;

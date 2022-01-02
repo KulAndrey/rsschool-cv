@@ -56,6 +56,14 @@
     </ul>
 
 </div>
+<div class="contact">
+    <h2>Language</h2>
+    <ul>
+        <li>English A2</li>
+          
+    </ul>
+
+</div>
 </div>
 <div class="contact">
     <h2>Skills</h2>
@@ -69,15 +77,25 @@
 </div>
 <div class="contact">
     <h2>Example code</h2>
-    <ul>
-        <li>Country: Russia</li>
-        <li>Discord: KulAndrey#9688</li>
-        <li>E-mail: mail@yarcentr.ru</li>   
-    </ul>
+    <pre>
+        const factorial = (n) => {
+            const iter = (current, acc) => {
+              if (current === 0) {
+                return acc;
+              }
+              return iter(current - 1, acc * current);
+            };
+          
+            return iter(n, 1);
+          }
+    </pre>
 </div>
 </div>
 <footer>
-    <a href="https://github.com/KulAndrey/rsschool-cv">My GitHub</a>
+    <ul>
+    <li><a href="https://github.com/KulAndrey/rsschool-cv">My GitHub</a></li>
+    <li><a href="https://app.rs.school/">RS School</a></li>
+    </ul>
 </footer>
 </body>
 </html>

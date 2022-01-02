@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 30 px 100 px 30 px;
+    background: azure;
+}
+h1 {
+    font-size:36px;
+    color: rgb(84, 11, 153);
+    text-align: center;
+    
+}
+h2 {
+    color: darkblue;
+}
+ul {
+    padding-inline-start: 0;
+}
+p {
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav li {
+    display: inline;
+    margin: 10px;
+    
+}
+nav {
+    text-align: center;
+    padding: 10px;
+    background: azure;
+    font-size: 18px;
+}
+
+.name {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.myFoto {
+    text-align: center;
+}
+.block {
+ 
+}
+
+.contact li {
+    list-style-type:none;
+
+}
+
+.contact {
+    padding-bottom: 10px;
+    padding-top: 10px; 
+    font-size: 18px;
+    text-align: center;
+    background: rgb(235, 238, 238);
+}
+
+@media (min-width: 980px) {
+    .contact,.name,nav,footer {
+        margin:10px 200px 10px;
+    }
+}
+
+@media (max-width: 980px) {
+    .contact,.name,nav,footer {
+        margin:10px 0 10px;
+    }
+}
+
+footer li {
+    display: inline;
+    
+    
+}
+footer {
+    text-align: center;
+    background: azure;
+    font-size: 20px;
+}
